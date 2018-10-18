@@ -1,9 +1,7 @@
 .navbar-brand{
     margin-left: 10%
 }
-#about{
-    text-align: center;
-}
+
   .navbar-nav{
       left: 25px
   }
@@ -80,6 +78,9 @@
     transform: rotate(-135deg);
   }
   
+  #about{
+    text-align: center;
+}
   /* Icon 3*/
   
   
