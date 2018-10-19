@@ -33,7 +33,7 @@
   }
   .name{
     font-family: 'Times New Roman', Times, serif;
-    background-color:lightgray;
+    background-color:rgba(212, 199, 199, 0.952);
     text-align: center;
     
     
@@ -42,9 +42,9 @@
 
   .stats{
     font-family: 'Times New Roman', Times, serif;
-    background-color: lightgray;
+    background-color: rgba(212, 199, 199, 0.952);
     text-align: center;
-    opacity: 50%;
+    opacity: 90%;
     
   }
   .animated-icon1, .animated-icon3, .animated-icon4 {
@@ -137,7 +137,7 @@
     100% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
-      opacity: 1;
+      opacity: .8;
     }
   }
   @-webkit-keyframes slide-in-right {
@@ -149,21 +149,10 @@
     100% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
-      opacity: 1;
+      opacity: .8;
     }
   }
-  @keyframes slide-in-right {
-    0% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
-  }
+  
   
   
   @-webkit-keyframes tracking-in-contract {
@@ -176,7 +165,7 @@
     }
     100% {
       letter-spacing: normal;
-      opacity: 0.2;
+      opacity: 0.6;
     }
     
   }
@@ -196,12 +185,12 @@
   
  @media screen and (max-width: 550px){
    .yes{
-     background-size: 100% 65% ;
-     
+     background-size: 100% 90% ;
+     height: 400px;
      
    }
    .topper{
-     height: 0
+     height: 70px
    }
    .name{
      font-size: 18px
