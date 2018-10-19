@@ -10,7 +10,17 @@
   .navbar{
     position: relative
   }
- 
+  .topper{
+    height: 100px
+  }
+  .slide-in-left {
+    -webkit-animation: slide-in-left 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-left 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  .slide-in-right {
+    -webkit-animation: slide-in-right 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-right 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
   .yes{
     background: url(images/slc.png);
     background-repeat: no-repeat;
@@ -19,7 +29,23 @@
     margin-left: 2.5%;
  
     z-index: 0;
-     height: 355px
+     height: 500px
+  }
+  .name{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:lightgray;
+    text-align: center;
+    
+    
+    opacity: 50%
+  }
+
+  .stats{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgray;
+    text-align: center;
+    opacity: 50%;
+    
   }
   .animated-icon1, .animated-icon3, .animated-icon4 {
     width: 30px;
@@ -59,8 +85,8 @@
       background: #464444;
   }
   .tracking-in-contract {
-    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.75, 1, 0.355, 1.000) both;
-            animation: tracking-in-contract 0.8s cubic-bezier(0.75, 1, 0.355, 1.000) both;
+    -webkit-animation: tracking-in-contract 1.2s cubic-bezier(0.75, 1, 0.355, 1.000) both;
+            animation: tracking-in-contract 1.2s cubic-bezier(0.75, 1, 0.355, 1.000) both;
             
   }
  
@@ -102,6 +128,43 @@
     text-align: center;
 }
   /* Icon 3*/
+  @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
   
   @-webkit-keyframes tracking-in-contract {
     0% {
@@ -113,8 +176,9 @@
     }
     100% {
       letter-spacing: normal;
-      opacity: 1;
+      opacity: 0.2;
     }
+    
   }
   @keyframes tracking-in-contract {
     0% {
@@ -126,9 +190,21 @@
     }
     100% {
       letter-spacing: normal;
-      opacity: 1;
+   
     }
   }
   
- 
+ @media screen and (max-width: 550px){
+   .yes{
+     background-size: 100% 65% ;
+     
+     
+   }
+   .topper{
+     height: 0
+   }
+   .name{
+     font-size: 18px
+   }
+ }
   
