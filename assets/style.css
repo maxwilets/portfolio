@@ -1,34 +1,44 @@
 .navbar-brand{
     margin-left: 10%;
+    float: right;
+    
  
 }
 
   .navbar-nav{
-      left: 25px;
+      margin-left: 70%;
+      
+     opacity: 80%;
+     padding: 12px;
+     z-index: 10
+     
+     
+      
       
   }
   .navbar{
-    position: relative
+    max-height: 50px;
+    z-index: 10
   }
   .topper{
     height: 100px
   }
   .slide-in-left {
-    -webkit-animation: slide-in-left 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-in-left 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: slide-in-left .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-left .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   .slide-in-right {
-    -webkit-animation: slide-in-right 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-in-right 1.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: slide-in-right .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-right .75s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   .yes{
     background: url(images/slc.png);
     background-repeat: no-repeat;
   
     background-size: 95%;
-    margin-left: 2.5%;
+    margin-left: 5%;
  
-    z-index: 0;
+    z-index: -1;
      height: 500px
   }
   .name{
@@ -186,7 +196,7 @@
  @media screen and (max-width: 550px){
    .yes{
      background-size: 100% 90% ;
-     height: 400px;
+     height: 450px;
      
    }
    .topper{
@@ -194,6 +204,13 @@
    }
    .name{
      font-size: 18px
+   }
+   .navbar-nav{
+     background-color: rgba(212, 199, 199, 0.952);
+     opacity: 0.8;
+     margin-left: 87%;
+     padding-right: 10;
+     width: 80px
    }
  }
   

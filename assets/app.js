@@ -21,6 +21,7 @@
 
   // Works everywhere
   $(document).ready(function () {
+    
   
     // Hide/show animation hamburger function
     $('.navbar-toggler').on('click', function () {
