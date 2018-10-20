@@ -197,6 +197,8 @@
    .yes{
      background-size: 100% 90% ;
      height: 450px;
+     margin-left: 2.5%;
+     margin-right: 2.5%
      
    }
    .topper{
@@ -209,8 +211,8 @@
      background-color: rgba(212, 199, 199, 0.952);
      opacity: 0.8;
      margin-left: 85%;
-     padding-right: 10;
-     width: 80px
+     
+     width: 76px
    }
  }
   
