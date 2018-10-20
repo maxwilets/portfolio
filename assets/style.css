@@ -4,7 +4,9 @@
     
  
 }
-
+.portfolio{
+  text-align: center
+}
   .navbar-nav{
       margin-left: 65%;
       
@@ -12,9 +14,17 @@
      padding: 12px;
      z-index: 10
      
-     
+    
       
       
+  }
+  .description{
+    font-size: 20px
+  }
+  .projects{
+    display: block;
+    height: 350px;
+    width: 100%;
   }
   .afterBio{
     border-width: 2px
