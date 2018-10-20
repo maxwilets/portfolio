@@ -21,6 +21,7 @@
 
   // Works everywhere
   $(document).ready(function () {
+    <button onclick="window.location.href='/page2'">Continue</button>
     
   
     // Hide/show animation hamburger function
