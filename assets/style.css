@@ -29,14 +29,17 @@
     display: block;
     height: 350px;
     width: 100%;
-    border: 1px black solid
+    border: 1px black solid;
+    margin-top: 15px;
+    margin-bottom: 5px
   }
   .afterBio{
     border-width: 2px
   }
   .navbar{
     max-height: 50px;
-    z-index: 10
+    z-index: 10;
+    position:fixed
   }
   .topper{
     height: 100px
