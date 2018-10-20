@@ -35,7 +35,7 @@
     background: url(images/slc.png);
     background-repeat: no-repeat;
    
-    background-size: 95%;
+    background-size: 95% 90%;
     margin-left: 5%;
     filter: brightness(70%);
     z-index: -1;
@@ -97,8 +97,8 @@
       background: #464444;
   }
   .tracking-in-contract {
-    -webkit-animation: tracking-in-contract 1.2s cubic-bezier(0.75, 1, 0.355, 1.000) both;
-            animation: tracking-in-contract 1.2s cubic-bezier(0.75, 1, 0.355, 1.000) both;
+    -webkit-animation: tracking-in-contract 1.25s cubic-bezier(0.125, 1, 0.610, 1.000) both;
+            animation: tracking-in-contract 1.25s cubic-bezier(0.125, 1, 0.610, 1.000) both;
             
   }
  
@@ -184,28 +184,17 @@
       opacity: 0;
     }
     40% {
-      opacity: 0.6;
+      opacity: 0.8;
     }
     100% {
       letter-spacing: normal;
-      opacity: 0.6;
+      opacity: 0.9;
+      filter: brightness(100%)
     }
     
+    
   }
-  @keyframes tracking-in-contract {
-    0% {
-      letter-spacing: 1em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      letter-spacing: normal;
-      filter: brightness(100%)
-   
-    }
-  }
+
   
  @media screen and (max-width: 550px){
    .yes{
