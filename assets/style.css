@@ -16,6 +16,9 @@
       
       
   }
+  .afterBio{
+    border-width: 2px
+  }
   .navbar{
     max-height: 50px;
     z-index: 10
@@ -37,11 +40,11 @@
    
     background-size: 95% 90%;
     margin-left: 5%;
-    filter: brightness(70%);
+    filter: brightness(65%);
     z-index: -1;
      height: 500px;
      animation-name: yes;
-     animation-duration: 1s
+     animation-duration: 1.5s
   }
   .name{
     font-family: 'Times New Roman', Times, serif;
@@ -58,6 +61,10 @@
     opacity: .9
     
     
+  }
+  .pre{
+    font-size: 18px;
+    text-align: center
   }
   .animated-icon1, .animated-icon3, .animated-icon4 {
     width: 30px;
@@ -97,8 +104,8 @@
       background: #464444;
   }
   .tracking-in-contract {
-    -webkit-animation: tracking-in-contract 1.25s cubic-bezier(0.125, 1, 0.610, 1.000) both;
-            animation: tracking-in-contract 1.25s cubic-bezier(0.125, 1, 0.610, 1.000) both;
+    -webkit-animation: tracking-in-contract 1.25s cubic-bezier(0.125,  0.610, 0.355, 1.000) both;
+            animation: tracking-in-contract 1.25s cubic-bezier(0.125,  0.610, 0.355, 1.000) both;
             
   }
  
@@ -174,7 +181,7 @@
       
     }
     100%{
-      filter:brightness(70%)
+      filter:brightness(65%)
     }
   }
   
