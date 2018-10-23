@@ -23,7 +23,7 @@
     <title>Max Wilets</title>
 </head>
 <body>
-       
+    
     <nav class="navbar navbar-expand-lg navbar-light container-fluid bg-light">
         <a class="navbar-brand" style:'float:right' href="#">Navbar</a>
         
@@ -43,7 +43,7 @@
                     <a class='nav-link' href='https://docs.google.com/document/d/1EDV2GOhGCt0Jly1us8J1U4N-TlmV-NisOfyM_YgZSRE/edit?usp=sharing' >Resume</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link" href="form.html">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </div>
             </div>
             <!-- Links -->
@@ -225,17 +225,15 @@
                 <div class='col-2'></div>
              </div>
 
-             <div class= 'container'>
+             <div class= 'container' id='contact'>
                     <div class= 'col-12' style="margin-top: 15px"></div>
                     <div class= 'col-12 portfolio bg-light ' style= 'margin-bottom: 15px'>
                         <h2>Contact Me</h2> 
                     </div>
                 
-                    <form method= 'post' action='mailto:mwilets@gmail.com'>
+                    <form method= 'POST' action='https://formspree.io/mwilets@gmail.com'>
                             <div class='form-group'>
-                                <label> Name</label>
-                                <input type='text' name='name'class='form-control' placehoder= 'John Doe'>
-                            </div>
+                               
                             <div class="form-group">
                               <label for="exampleFormControlInput1">Email address</label>
                               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -247,9 +245,9 @@
                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             
-                            <input type='submit'  value='Send'>
-                            
-                            <input type='reset'  value='Reset'>
+                            <button type='submit'  class= 'input'> Submit </button>
+                     >       
+                           
                             
                           </form>
                    
