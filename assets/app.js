@@ -22,7 +22,13 @@
   // Works everywhere
   $(document).ready(function () {
     
+    $('.fa-github').on('click', function() {
+        window.location.href = 'https://github.com/maxwilets?tab=repositories'
+    })
     
+    $('.fa-linkedin').on('click', function(){
+      window.location.href = 'https://www.linkedin.com/in/maxwell-wilets-7aa205139/'
+    })
   
     // Hide/show animation hamburger function
     $('.navbar-toggler').on('click', function () {

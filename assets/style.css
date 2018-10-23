@@ -18,6 +18,19 @@
       
       
   }
+  input {
+    background-color: black;
+    color: whitesmoke
+  }
+  .white-space{
+    visibility: hidden
+  }
+
+  .social-media-list a {
+    font-size: 2em;
+    
+    list-style: none
+  }
  
   a:hover{
     font-style: normal

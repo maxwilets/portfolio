@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
     <link rel= "stylesheet" type= "text/css" href="assets/style.css">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -42,7 +43,7 @@
                     <a class='nav-link' href='https://docs.google.com/document/d/1EDV2GOhGCt0Jly1us8J1U4N-TlmV-NisOfyM_YgZSRE/edit?usp=sharing' >Resume</a>
                 </div>
                 <div class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="form.html">Contact</a>
                 </div>
             </div>
             <!-- Links -->
@@ -93,8 +94,8 @@
               <div class= 'col-lg-6 col-md-8 col-sm-10 col-xs-10 pre'>
                   <h4> Nice to meet you, I'm Max!</h4>
                   I am a recent graduate of the University of Utah with a BS in Geography and an emphasis in GIS and Ecology.
-                 I am also currently addending the University of Utah Coding Bootcamp. My background experience has given me an obsessive 
-                 attention to detail. I bring this attention to the workplace when I develop applications or webpages, no error ges ignored and every style is carefully selected.
+                 I am also currently attending the University of Utah Coding Bootcamp. My background experience has given me an obsessive 
+                 attention to detail. I bring this attention to the workplace when I develop applications or webpages, no error gets ignored and every style is carefully selected.
                  When I am not coding, you can find me skateboarding, listening to podcasts, or exploring the beautiful Utah wilderness.
 
 
@@ -125,7 +126,7 @@
             <div class='col-2'></div>
             <div class='col-9'>
             
-            <p class='description'>  We created a web app that generates genre based movie selections, a recepie pairing, and all the available online sources to find the movie</p>
+            <p class='description'>  We created a web app that generates genre based movie selections, a recipe pairing, and all the available online sources to find the movie</p>
             <p style='font-size: 14px'>Note: I was limited to 5000 AJAX calls on the movie API so parts of the movie portion may not work anymore</p>
             </div>
             <div class='col-2'></div>
@@ -186,7 +187,7 @@
         <div class='col-2'></div>
         <div class='col-9'>
         
-        <p class='description'> Using time out and timers, as well as a jQuery, I made an anime trivia app. It tracks the players score and provides challenging trivia questions
+        <p class='description'> Using time out and timers, as well as jQuery, I made an anime trivia app. It tracks the players score and provides challenging trivia questions
         </p>
        
         </div>
@@ -217,13 +218,72 @@
                 <div class='col-9'>
                 
                 <p class='description'> 
-                    I am currently working on a project that will track players througout a Dungeons and Dragons game. Using a database, players will be able to interact and keep track of each others stats
+                    I am currently working on a project that will track players througout a Dungeons and Dragons game. Using a database, players will be able to interact and keep track of each others' stats
                 </p>
                
                 </div>
                 <div class='col-2'></div>
              </div>
+
+             <div class= 'container'>
+                    <div class= 'col-12' style="margin-top: 15px"></div>
+                    <div class= 'col-12 portfolio bg-light ' style= 'margin-bottom: 15px'>
+                        <h2>Contact Me</h2> 
+                    </div>
+                
+                    <form method= 'post' action='mailto:mwilets@gmail.com'>
+                            <div class='form-group'>
+                                <label> Name</label>
+                                <input type='text' name='name'class='form-control' placehoder= 'John Doe'>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            
+                         
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Example textarea</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            
+                            <input type='submit'  value='Send'>
+                            
+                            <input type='reset'  value='Reset'>
+                            
+                          </form>
+                   
+                </div>
       </div>
-      
+
+      <div class="container-fluid bg-light" id="social-media" style="margin-top:10px">
+            <div class="row">
+                <div class="col-5  white-space">::before</div>
+                    <div class = 'col-1'>
+                    <div class="social-media-list">
+                        <a href="https://github.com/maxwilets?tab=repositories/"><i class="fab fa-github"></i></a>
+                    </div>
+                      </div>
+                      <div class= 'col-2'>
+                    <div class="social-media-list">
+                        <a href="https://www.linkedin.com/in/maxwell-wilets-7aa205139/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                     </div>
+                <div class="col-lg-3 col-md-3 white-space">::after</div>
+            </div>
+        </div>
+      <footer class="page-footer font-small blue">
+
+            
+            <div class="footer-copyright text-center py-3 bg-light col-12" >© 2018 Copyright: Max Wilets
+    
+               
+            
+            
+            
+        
+        
+            
+          </footer>   
 </body>
 </html>
