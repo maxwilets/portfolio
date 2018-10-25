@@ -12,11 +12,16 @@
       
      opacity: 80%;
      padding: 12px;
-     z-index: 10
+     z-index: 10;
+
+     
      
     
       
       
+  }
+  .navbar{
+    margin-bottom: 15px
   }
   #logo {
     
@@ -249,7 +254,7 @@
      height: 200px
    }
    .topper{
-     height: 70px
+     height: 60px
    }
    .name{
      font-size: 18px
