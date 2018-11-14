@@ -20,6 +20,11 @@
       
       
   }
+  .griy{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid
+  }
   .navbar{
     margin-bottom: 15px
   }
