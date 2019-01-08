@@ -265,7 +265,7 @@
      font-size: 18px
    }
    .navbar-nav{
-     background-color: rgba(212, 199, 199, 0.952);
+    /* background-color: rgba(212, 199, 199, 0.952);*/
      opacity: 0.8;
      margin-left: 85%;
      
